@@ -1,0 +1,19 @@
+[project]
+name = "voice-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "azure-identity>=1.25.0",
+    "azure-search-documents>=11.5.3",
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.116.2",
+    "loguru>=0.7.3",
+    "onnxruntime>=1.22.1",
+    "pip-tools>=7.5.0",
+    "pipecat-ai-flows>=0.0.21",
+    "pipecat-ai-small-webrtc-prebuilt>=1.0.0",
+    "pipecat-ai-whisker>=0.0.9",
+    "pipecat-ai[anthropic,aws,cartesia,daily,deepgram,google,openai,runner,silero,small-webrtc,webrtc,websocket]>=0.0.85",
+]
